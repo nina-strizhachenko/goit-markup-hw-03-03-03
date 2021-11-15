@@ -105,6 +105,30 @@ img {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+.filter-list {
+  display: flex;
+  align-items: center;
+}
+/* ------ОБЩЕЕ----- */
+.general-styles {
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.footer-styles {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.general-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* -------HEADER------- */
 .header {
   border-bottom: 1px solid #ececec;
@@ -264,11 +288,6 @@ img {
   margin-right: 0;
 }
 .section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-shade-text-color);
 }
 /* -------НАША КОМАНДА-------- */
@@ -285,31 +304,25 @@ img {
 .team-item:last-child {
   margin-right: 0;
 }
+.teammate {
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
 .team-title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-shade-text-color);
 }
 .teammate-name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-shade-text-color);
 }
 .teammate-position {
   margin-top: 10px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-shade-2-text-color);
 }
 /* ----------ПОДВАЛ---------- */
@@ -317,11 +330,6 @@ img {
   display: block;
 }
 .map-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .map-link:hover,
@@ -332,11 +340,6 @@ img {
   background-color: var(--secondary-bgr-color);
 }
 .contact-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-shade-text-color);
 }
 .contact-link:hover,
