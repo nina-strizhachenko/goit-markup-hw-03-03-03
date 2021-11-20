@@ -278,7 +278,7 @@ img {
   margin-right: 30px;
 }
 .teammate {
-  padding: 30px 60px;
+  padding: 30px 0;
   background: var(--primary-bgr-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -310,7 +310,7 @@ img {
 .map-link:focus {
   color: var(--accent-color);
 }
-.bgr {
+.footer-section {
   padding: 60px 0;
   background-color: var(--secondary-bgr-color);
 }
@@ -352,7 +352,7 @@ img {
   border: 1px solid var(--border-portfolio-item-color);
 }
 .portfolio-item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .portfolio-item {
   margin-right: 30px;
