@@ -347,18 +347,10 @@ img {
   flex-wrap: wrap;
 }
 .portfolio-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
   border: 1px solid var(--border-portfolio-item-color);
 }
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
-}
-.portfolio-item {
-  margin-right: 30px;
-}
-.portfolio-item:nth-child(3n) {
-  margin-right: 0;
 }
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
